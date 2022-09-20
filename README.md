@@ -1,7 +1,6 @@
 # sql-solves
 
---1
-
+```
 SELECT user_id, spend, transaction_date
 FROM
   (SELECT 
@@ -14,3 +13,5 @@ FROM
   order by user_id, transaction_date ASC) t
 where transaction_number = 3
 ORDER BY user_id ASC
+```
+
